@@ -13,7 +13,7 @@ const Skills = () => {
     { title: "SQL", image: "/images/sql.png", proficiency: 84, isLeft: false},
     { title: "Python", image: "/images/Python.png", proficiency: 92, isLeft: true},
     { title: "MongoDB", image: "/images/mongodb.png", proficiency: 74, isLeft: true},
-    { title: "Figma", image: "/images/figm.png", proficiency: 78, isLeft: false},
+    { title: "Figma", image: "/images/figma.png", proficiency: 78, isLeft: false},
     { title: "JavaScript", image: "/images/JavaScript.png", proficiency: 90, isLeft: false},
   ];
 
