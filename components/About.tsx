@@ -11,7 +11,7 @@ const About = () => {
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
         animate={{ x: 0, opacity: 1 }}
-        className="mt-20 md:mb-0 w-40 h-40 rounded-full object-cover sm:flex md:rounded-lg md:w-[320px] md:h-[420px] xl:w-[400px] xl:h-[500px] mx-4"
+        className="md:mb-0 w-40 h-40 rounded-full object-cover sm:flex md:rounded-lg md:w-[320px] md:h-[420px] xl:w-[400px] xl:h-[500px] mx-4"
         src="/personal.jpg"
       />
       <div className="text-left object-cover w-4/5 lg:w-1/2 rounded-lg p-4 text-gray-200">

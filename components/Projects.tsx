@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import { Button } from "./ui/button";
 
 const Projects = () => {
   const projects = [
@@ -66,14 +67,29 @@ const Projects = () => {
               height={!isMobile ? 400 : 250}
               width={!isMobile ? 400 : 250}
               className="rounded-[10px]"
+              onClick={
+                () => {
+                  window.open(project.link);
+                }
+              }
             />
-            <div className="space-y-5 px-0 md:px-10 max-w-6xl">
+            <div className="space-y-5 px-0 md:px-10 max-w-6xl flex flex-col items-center">
+              <Button
+              className="flex items-center justify-center text-white hover:text-[#F7AB0A] "
+              variant="ghost"
+              onClick={
+                () => {
+                  window.open(project.link);
+                }
+              }
+              >
               <h4 className="text-xl md:text-3xl lg:text-4xl mt-4 font-semibold text-center">
                 <span className="underline decoration-[#F7AB0A]/50">
                   Project {project.index} of 3
                 </span>{" "}
                 {project.name}
               </h4>
+              </Button>
 
               <p className="text-sm md:text-lg mt-0">
                 {project.description}
