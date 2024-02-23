@@ -4,16 +4,16 @@ import Skill from "./Skill";
 const Skills = () => {
   const skills = [
     { title: "TailwindCSS", image: "/images/Tailwind.jpg", proficiency: 82, isLeft:true },
-    { title: "React.JS", image: "/images/React.png", proficiency: 92, isLeft:true },
-    { title: "Docker", image: "/images/Docker.png", proficiency: 75, isLeft:false },
-    { title: "NextJS", image: "/images/Next.png", proficiency: 85, isLeft:false },
+    { title: "React.JS", image: "/images/react.png", proficiency: 92, isLeft:true },
+    { title: "Docker", image: "/images/docker.png", proficiency: 75, isLeft:false },
+    { title: "NextJS", image: "/images/next.png", proficiency: 85, isLeft:false },
     { title: "Java", image: "/images/Java.png", proficiency: 90, isLeft:true },
     { title: "Cyber Security", image: "/images/cyber.jpg", proficiency: 88, isLeft: true },
-    { title: "AWS", image: "/images/AWS.png", proficiency: 82, isLeft: false },
-    { title: "SQL", image: "/images/SQL.png", proficiency: 84, isLeft: false},
+    { title: "AWS", image: "/images/aws.png", proficiency: 82, isLeft: false },
+    { title: "SQL", image: "/images/sql.png", proficiency: 84, isLeft: false},
     { title: "Python", image: "/images/Python.png", proficiency: 92, isLeft: true},
-    { title: "MongoDB", image: "/images/MongoDB.png", proficiency: 74, isLeft: true},
-    { title: "Figma", image: "/images/Figma.png", proficiency: 78, isLeft: false},
+    { title: "MongoDB", image: "/images/mongodb.png", proficiency: 74, isLeft: true},
+    { title: "Figma", image: "/images/figm.png", proficiency: 78, isLeft: false},
     { title: "JavaScript", image: "/images/JavaScript.png", proficiency: 90, isLeft: false},
   ];
 
