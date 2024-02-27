@@ -43,9 +43,6 @@ const HeroComponent = () => {
                 <Link href="#skills">Skills</Link>
             </Button>
             <Button variant="ghost">
-                <Link href="#experience">Experience</Link>
-            </Button>
-            <Button variant="ghost">
                 <Link href="#projects">Projects</Link>
             </Button>
         </div>
